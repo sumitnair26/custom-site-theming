@@ -20,6 +20,10 @@ const settings = [
         default: "false"
     },
     {
+        key:"round",
+        default:"false"
+    },
+    {
         key: "motion",
         default: "true"
     },
@@ -45,7 +49,7 @@ function updateSettingUi({name, value}){
     // boolean Toggles
     if(value ==="true" || value === "false") {
         const checkbox = document.querySelector(`[name="${name}"]`);
-
+        console.log(checkbox);
         return (checkbox.checked = value === "true" ? true : false);
 
     }
