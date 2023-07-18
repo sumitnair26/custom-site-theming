@@ -110,6 +110,11 @@ button {
     transition-delay: 0s !important;
 }
 
+[data-round="true"]{
+  --round-full:100vmax;
+  --round-md:0.5rem;
+}
+
 body {
   background-color: var(--bkg);
   color: var(--text);
