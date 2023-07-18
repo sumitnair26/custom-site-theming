@@ -16,5 +16,6 @@ toggles.forEach((toggle) =>{
     toggle.addEventListener("change",(e)=> {
         const { name, checked } = e.target;
         updateSiteUi({name, value: checked})
+        localStorage.setItem(name, checked);
     })
 })
