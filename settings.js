@@ -10,6 +10,9 @@ const doc = document.documentElement;
 // functions
 function updateSiteUi({name, value}){
     //console.log({ name, value });
+    if(name === "customColor" ) {
+        return doc.style.setProperty("--customColor", `var(--${value})`);
+    }
     return (doc.dataset[name]=value);
 }
 
