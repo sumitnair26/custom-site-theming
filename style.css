@@ -415,20 +415,19 @@ section {
  /* text-align: justify; */
 }
 
-[type="checkbox"], 
-.switch-label{
+[type="checkbox"],
+.switch-label {
   position: absolute;
   inset: 0;
   opacity: 0;
   cursor: pointer;
-  /* opacity: 0; */
 }
 
 .switch {
   display: flex;
   gap: var(--space-2xs);
   align-items: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   padding: var(--space-xs);
   border: 2px solid var(--customColor);
   border-radius: var(--round-md);
@@ -441,9 +440,9 @@ section {
   flex-shrink: 0;
   position: relative;
   width: var(--size);
-  height: calc(var(--size)/2);
+  height: calc(var(--size) / 2);
   background-color: var(--customColor);
-  border-radius: var(--round-md);
+  border-radius: var(--round-full);
   transition: box-shadow 0.2s var(--ease-elastic);
 }
 
@@ -451,19 +450,19 @@ section {
   content: "";
   position: absolute;
   top: 50%;
-  left: calc(var(--size)/12);
+  left: calc(var(--size) / 12);
   transform: translate(0, -50%);
-  width: calc(var(--size)/3);
-  height: calc(var(--size)/3);
+  width: calc(var(--size) / 3);
+  height: calc(var(--size) / 3);
   background-color: var(--bkg);
   border-radius: var(--round-full);
   transition: transform 0.2s var(--ease-elastic);
 }
 
 [type="checkbox"]:focus-visible ~ .switch .thumb {
-  box-shadow: 0 0 0 3px var(--bkg), 0 0 0 6px var(--customColor) ;
+  box-shadow: 0 0 0 3px var(--bkg), 0 0 0 6px var(--customColor);
 }
 
 [type="checkbox"]:checked ~ .switch .thumb::before {
-  transform: translate(calc(var(--size) - var(--size) / 2 ), -50%);
+  transform: translate(calc(var(--size) - var(--size) / 2), -50%);
 }
