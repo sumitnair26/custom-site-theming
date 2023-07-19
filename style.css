@@ -189,7 +189,11 @@ h3,
   font-size: var(--fs-lg);
 }
 p {
-  max-width: 60ch;
+  /* max-width: 60ch; */
+}
+a,
+ .a {
+  font-size: var(--fs-sm);
 }
 [data-color="primary"] {
   color: var(--primary);
@@ -327,9 +331,14 @@ section {
   align-items: center;
 }
 
-.cta h2 {
+.cta h2  {
   color: var(--customColor);
 }
+
+.cta h4  {
+  color: var(--customColor);
+}
+
 
 .cta > div {
   flex: 1 1 53%;
@@ -392,4 +401,8 @@ section {
   display: grid;
   gap: var(--space-sm);
   width: 100%;
+}
+
+.text-align-p {
+ /* text-align: justify; */
 }
