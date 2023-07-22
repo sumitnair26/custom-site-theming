@@ -34,14 +34,17 @@
             width="280px"
           />
           <h1 data-color="primary">Hi, I’m Sumit Nair</h1>
-          <p>Welcome to my blog.</p>
+          <div>
+            <p>Welcome To My Space.</p>
+          </div>
         </div>
       </header>
       <main>
-        <img src="/wave.png" alt="" class="wave" />
-        <section aria-labelledby="recent-posts" >
+       <img src="/wave.png" alt="" class="wave" /> 
+        <!--  Hidding Blog Section -->
+        <section aria-labelledby="recent-posts" style="display:none">
           <h2 class="sr-only" id="recent-posts">Recent Posts</h2>
-          <div class="card-wrapper"  >
+          <div class="card-wrapper" style="display:none" >
             <article class="card">
               <h3 data-color="primary">My Design Process</h3>
               <div>
@@ -81,10 +84,9 @@
           </div>
         </section>
         <section aria-labelledby="newsletter-signup" class="cta-wrapper">
-          <img src="/wave.png" alt="" class="wave" />
           <div class="cta container">
             <div class="text-align-p">
-              <h2 id="newsletter-signup">About Me :</h2>
+              <h2 id="newsletter-signup">About Me :</h2>             
               <p>
                 I am a Software Engineer living just outside of one of my favorite places in the world, Bangalore, India. I am a
                 self-taught programmer who firmly believes that you can accomplish anything in this life if you put your mind to
@@ -214,7 +216,7 @@
                   <div class="radio">
                     <input type="radio" name="theme" id="wild" />
                     <div class="check"></div>
-                    <label for="wild">90s</label>
+                    <label for="wild">90's</label>
                   </div>
                   <div class="radio">
                     <input type="radio" name="theme" id="material" />
