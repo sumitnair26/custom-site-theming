@@ -1,5 +1,3 @@
-![Custom-Site-Theming-dark](https://github.com/sumitnair26/custom-site-theming/assets/24470385/39538a2f-5fb2-4cec-bed9-a2887d619446)!
-
 # Custom Site Theming
 
 Change Entire Website Theme according to your Mood!
