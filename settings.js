@@ -1,4 +1,4 @@
-console.log('inside settings');
+//console.log('inside settings');
 
 //selectors
 const toggles = document.querySelectorAll(".settings [type='checkbox']"); 
